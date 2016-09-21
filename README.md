@@ -17,7 +17,7 @@ npm install fis3-preprocessor-replace-multi --save-dev
 ```javascript
   fis.match('**.js', {
     preprocessor: fis.plugin('replace-multi', {
-      'before replace': 'after replace'
+      'before replace': 'after replace',
       '__DEBUG': false
     }, 'append')
   });
@@ -26,7 +26,7 @@ npm install fis3-preprocessor-replace-multi --save-dev
 #### Before
 
 ```js
-  // before replace
+  var str = 'before replace';
   var url = __DEBUG ? 'http://dev.github.com' : 'https://github.com'
 ```
 
@@ -34,6 +34,6 @@ npm install fis3-preprocessor-replace-multi --save-dev
 #### After
 
 ```js
-  // after replace
+  var str = 'after replace';
   var url = false ? 'http://dev.github.com' : 'https://github.com'
 ```
