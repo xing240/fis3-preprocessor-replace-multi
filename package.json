@@ -1,0 +1,37 @@
+{
+  "name": "fis3-preprocessor-replace-multi",
+  "version": "0.0.1",
+  "description": "a replace preprocessor plugin for fis3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fis3",
+    "preprocessor",
+    "replace"
+  ],
+  "dependencies": {},
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "xing240",
+      "email": "linxing240@gmail.com"
+    }
+  ],
+  "directories": {},
+  "homepage": "https://github.com/xing240/fis3-preprocessor-replace-multi",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xing240/fis3-prepackager-replace.git",
+    "web": "https://github.com/xing240/fis3-prepackager-replace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xing240/fis3-prepackager-replace/issues",
+    "email": "linxing240@gmail.com"
+  },
+  "engines": {
+    "node": ">= 1.0.0"
+  },
+  "author": "xing240 <linxing240@gmail.com> (linxing240@gmail.com)"
+}
